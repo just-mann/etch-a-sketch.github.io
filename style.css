@@ -14,12 +14,41 @@ h3 {
 
 .myContainer {
     padding: 20px 0px;
+    text-align: center;
+}
+
+.button {
+    color: #fff;
+    background-color: #276488;
+    padding: 9px 15px;
+    width: 150px;
+    margin: 10px auto;
+    border: 2px solid #276488;
+    border-radius: 5px;
+}
+
+.resetBtn {
+    color: #fff;
+    background-color: #000000;
+    padding: 9px 15px;
+    width: 150px;
+    margin: 10px auto;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.resetBtn:hover {
+    cursor: pointer;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .container {
     width: 562.5px;
     height: auto;
-    margin: 20px auto;
+    margin: 5px auto;
     border: 1px solid black;
     display: grid;
     gap: 0;

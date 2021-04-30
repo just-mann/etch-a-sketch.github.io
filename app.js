@@ -2,6 +2,8 @@ console.log('Script File Connected...');
 
 let container = document.getElementById('container');
 
+let resetBtn = document.getElementById('resetBtn');
+
 // let randomColor = Math.floor(Math.random() * 16777215).toString();
 
 
@@ -18,3 +20,8 @@ for (let i = 0; i < 16 * 16; i++) {
     container.appendChild(div);
 }
 
+
+// Reset Page
+resetBtn.addEventListener('click', () => {
+    window.location.reload();
+})
