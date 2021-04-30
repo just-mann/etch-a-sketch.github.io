@@ -24,6 +24,8 @@ function gridFill(size) {
 // Set GridSize
 function setGridSize(size) {
     container.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
+    container.style.gridTemplateRows = `repeat(${size}, 1fr)`;
+
 }
 
 // Change Background Color
