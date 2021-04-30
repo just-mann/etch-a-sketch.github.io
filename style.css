@@ -4,13 +4,31 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(217, 220, 221);
+}
+
+h3 {
+    text-align: center;
+}
+
+.myContainer {
+    padding: 20px 0px;
+}
+
 .container {
+    width: 562.5px;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid black;
     display: grid;
-    grid-template-columns: repeat(16, 20px);
-    grid-template-rows: repeat(16, 20px);
+    gap: 0;
+    grid-template-columns: repeat(16, 35px);
+    grid-template-rows: repeat(16, 35px);
 }
 
 .container div {
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px;
+    /* background-color: lightblue; */
 }
